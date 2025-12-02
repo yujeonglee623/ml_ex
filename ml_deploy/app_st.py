@@ -42,7 +42,7 @@ st.title("Iris 품종 예측")
 st.write("꽃받침 길이, 너비, 꽃잎 길이, 너비를 입력하여 품종을 예측해보세요.")
 
 # 이미지 로딩
-img_path = os.path.join(base_path, "static", "flowers.jpg")
+img_path = os.path.join(base_path, "static", "flower1.jpg")
 
 # 사용자 입력 받기
 sepal_length = st.number_input("꽃받침 길이", 
